@@ -1,4 +1,4 @@
-package com.github.stickfigure.jsog;
+package com.voodoodyne.jackson.jsog;
 
 
 import java.io.IOException;

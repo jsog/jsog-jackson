@@ -6,7 +6,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<groupId>com.github.stickfigure</groupId>
+	<groupId>com.voodoodyne.jackson.jsog</groupId>
 	<artifactId>jackson-jsog</artifactId>
 	<version>1.0</version>
 
