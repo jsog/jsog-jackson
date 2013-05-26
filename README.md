@@ -2,6 +2,10 @@
 
 This is a plugin for Jackson which can serialize cyclic object graphs in the [JSOG format](https://github.com/stickfigure/jsog). At the moment it can only serialize, not deserialize, but this is adequate for sending data to JavaScript clients.
 
+## Source code
+
+The official repository is (https://github.com/stickfigure/jackson-jsog)
+
 ## Download
 
 This plugin is available in Maven Central:
