@@ -2,6 +2,21 @@
 
 This is a plugin for Jackson which can serialize cyclic object graphs in the [JSOG format](https://github.com/stickfigure/jsog). At the moment it can only serialize, not deserialize, but this is adequate for sending data to JavaScript clients.
 
+## Download
+
+This plugin is available in Maven Central:
+
+	<dependency>
+		<groupId>com.voodoodyune.jackson.jsog</groupId>
+		<artifactId>jackson-jsog</artifactId>
+		<version>1.0</version>
+		<scope>compile</scope>
+	</dependency>
+
+It can be downloaded directly from [http://search.maven.org/]
+
+## Usage
+
 To use this plugin, annotate any classes which may contain references with *@JsonIdentityInfo(generator=JSOGGenerator.class)*. Unfortunately Jackson does not currently provide any way to globally enable this feature.
 
     @JsonIdentityInfo(generator=JSOGGenerator.class)
@@ -9,7 +24,7 @@ To use this plugin, annotate any classes which may contain references with *@Jso
         String name;
         Person secretSanta;
     }
-
+    
 ## Author
 
 * Jeff Schnitzer (jeff@infohazard.org)
