@@ -28,3 +28,7 @@ To use this plugin, annotate any classes which may contain references with *@Jso
 ## Author
 
 * Jeff Schnitzer (jeff@infohazard.org)
+
+## License
+
+This software is provided under the [MIT license](http://opensource.org/licenses/MIT)
