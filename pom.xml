@@ -8,14 +8,14 @@
 
 	<groupId>com.voodoodyne.jackson.jsog</groupId>
 	<artifactId>jackson-jsog</artifactId>
-	<version>1.0</version>
+	<version>1.0.1</version>
 
 	<name>Jackson-JSOG</name>
 	<description>JSOG-generating plugin for Jackson.</description>
 	<packaging>jar</packaging>
 	<url>http://github.com/jsog/jsog-jackson/</url>
 	<scm>
-		<url>scm:git:git@github.com:stickfigure/jsog-jackson.git</url>
+		<url>scm:git:git@github.com:jsog/jsog-jackson.git</url>
 	</scm>
 	<licenses>
 		<license>
