@@ -13,9 +13,9 @@
 	<name>Jackson-JSOG</name>
 	<description>JSOG-generating plugin for Jackson.</description>
 	<packaging>jar</packaging>
-	<url>http://github.com/stickfigure/jackson-jsog/</url>
+	<url>http://github.com/jsog/jsog-jackson/</url>
 	<scm>
-		<url>scm:git:git@github.com:stickfigure/jackson-jsog.git</url>
+		<url>scm:git:git@github.com:stickfigure/jsog-jackson.git</url>
 	</scm>
 	<licenses>
 		<license>

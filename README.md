@@ -1,17 +1,17 @@
-# Serializing JavaScript Object Graphs with Jackson
+# JavaScript Object Graphs with Jackson
 
-This is a plugin for Jackson which can serialize cyclic object graphs in the [JSOG format](https://github.com/stickfigure/jsog). At the moment it can only serialize, not deserialize, but this is adequate for sending data to JavaScript clients.
+This is a plugin for Jackson which can serialize cyclic object graphs in the [JSOG format](https://github.com/jsog/jsog). At the moment it can only serialize, not deserialize, but this is adequate for sending data to JavaScript clients.
 
 ## Source code
 
-The official repository is (https://github.com/stickfigure/jackson-jsog)
+The official repository is (https://github.com/jsog/jsog-jackson)
 
 ## Download
 
 This plugin is available in Maven Central:
 
 	<dependency>
-		<groupId>com.voodoodyune.jackson.jsog</groupId>
+		<groupId>com.voodoodyne.jackson.jsog</groupId>
 		<artifactId>jackson-jsog</artifactId>
 		<version>1.0</version>
 		<scope>compile</scope>
