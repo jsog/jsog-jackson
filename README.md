@@ -21,7 +21,7 @@ It can be downloaded directly from [http://search.maven.org/]
 
 ## Usage
 
-To use this plugin, annotate any classes which may contain references with *@JsonIdentityInfo(generator=JSOGGenerator.class)*. Unfortunately Jackson does not currently provide any way to globally enable this feature.
+To use this plugin, annotate any classes which may contain references with *@JsonIdentityInfo(generator=JSOGGenerator.class)*.
 
     @JsonIdentityInfo(generator=JSOGGenerator.class)
     public class Person {
