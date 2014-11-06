@@ -13,7 +13,7 @@ This plugin is available in Maven Central:
 	<dependency>
 		<groupId>com.voodoodyne.jackson.jsog</groupId>
 		<artifactId>jackson-jsog</artifactId>
-		<version>1.0</version>
+		<version>please look up latest version</version>
 		<scope>compile</scope>
 	</dependency>
 
