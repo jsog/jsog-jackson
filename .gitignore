@@ -1,3 +1,7 @@
 .svn
 /target/
 /test-output/
+.project
+.classpath
+*.iml
+.idea
