@@ -41,9 +41,8 @@ public class JSOGTest {
 	}
 
 	/**
-	 * This does not currently work. Help fixing it would be greatly apprecaited!
 	 */
-	//@Test
+	@Test
 	public void deserializationWorks() throws Exception {
 		Outer outer = mapper.readValue(JSOGIFIED, Outer.class);
 

@@ -4,11 +4,12 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jackson.version>2.5.0-SNAPSHOT</jackson.version>
 	</properties>
 
 	<groupId>com.voodoodyne.jackson.jsog</groupId>
 	<artifactId>jackson-jsog</artifactId>
-	<version>1.0.1</version>
+	<version>1.1-SNAPSHOT</version>
 
 	<name>Jackson-JSOG</name>
 	<description>JSOG-generating plugin for Jackson.</description>
@@ -90,14 +91,14 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>2.1.2</version>
+			<version>${jackson.version}</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.1.2</version>
+			<version>${jackson.version}</version>
 			<scope>compile</scope>
 			<optional>true</optional>
 		</dependency>

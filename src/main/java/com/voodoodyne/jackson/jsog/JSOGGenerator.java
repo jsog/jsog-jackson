@@ -55,4 +55,13 @@ public class JSOGGenerator extends ObjectIdGenerator<JSOGRef> {
         return new JSOGRef(id);
 	}
 
+    @Override
+    public boolean maySerializeAsObject() {
+        return true;
+    }
+
+    @Override
+    public boolean isValidReferencePropertyName(String name, Object parser) {
+        return JSOGRef.REF_KEY.equals(name);
+    }
 }

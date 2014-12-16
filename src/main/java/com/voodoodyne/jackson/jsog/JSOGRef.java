@@ -38,4 +38,14 @@ public class JSOGRef
 	public JSOGRef(int val) {
 		this(Integer.toString(val));
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return obj instanceof JSOGRef && ((JSOGRef)obj).ref.equals(ref);
+	}
+
+	@Override
+	public int hashCode() {
+		return ref.hashCode();
+	}
 }
