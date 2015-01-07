@@ -17,6 +17,8 @@
 	<url>http://github.com/jsog/jsog-jackson/</url>
 	<scm>
 		<url>scm:git:git@github.com:jsog/jsog-jackson.git</url>
+		<developerConnection>scm:git:https://github.com/jsog/jsog-jackson.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 	<licenses>
 		<license>
