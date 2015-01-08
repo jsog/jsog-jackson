@@ -1,7 +1,10 @@
 # JavaScript Object Graphs with Jackson
 
 This is a plugin for Jackson which can serialize cyclic object graphs in the [JSOG format](https://github.com/jsog/jsog).
-It can both serialize and deserialize, however, it currently cannot deserialize polymoprhic (ie @JsonTypeInfo) objects.
+It can both serialize and deserialize.
+
+Caveat: With Jackson 2.5.0, polymoprhic (ie @JsonTypeInfo) objects cannot be deserialized from JSOG. Jackson 2.5.1
+fixes the issue.
 
 ## Source code
 
