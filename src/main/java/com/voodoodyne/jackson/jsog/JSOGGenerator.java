@@ -16,9 +16,9 @@ public class JSOGGenerator extends ObjectIdGenerator<JSOGRef> {
 	protected transient int _nextValue;
     protected final Class<?> _scope;
 
-    protected JSOGGenerator() { this(null, -1); }
+    public JSOGGenerator() { this(null, -1); }
 
-    protected JSOGGenerator(Class<?> scope, int nextValue) {
+    public JSOGGenerator(Class<?> scope, int nextValue) {
         _scope = scope;
         _nextValue = nextValue;
     }
