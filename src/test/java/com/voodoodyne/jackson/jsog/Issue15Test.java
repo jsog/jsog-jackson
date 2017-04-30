@@ -20,17 +20,17 @@ public class Issue15Test {
     testWithPolymorphicStrategy(ObjectMapper.DefaultTyping.JAVA_LANG_OBJECT);
 
   }
-  @Test(enabled = false) // works with Jackson 2.5.4+
+  @Test // works with Jackson 2.5.4+
   public void testIssue5WorkaroundObjectAndNonConcrete() throws IOException {
     testWithPolymorphicStrategy(ObjectMapper.DefaultTyping.OBJECT_AND_NON_CONCRETE);
 
   }
-  @Test(enabled = false) // works with Jackson 2.5.4+
+  @Test // works with Jackson 2.5.4+
   public void testIssue5WorkaroundNonConcreteAndArrays() throws IOException {
     testWithPolymorphicStrategy(ObjectMapper.DefaultTyping.NON_CONCRETE_AND_ARRAYS);
 
   }
-  @Test(enabled = false) // fails on Jackson 2.8.8 (no working version as of this date)
+  @Test // fails on Jackson 2.8.8 (no working version as of this date) unless JSOGRef is a final class
   public void testIssue5WorkaroundNonFinal() throws IOException {
     testWithPolymorphicStrategy(ObjectMapper.DefaultTyping.NON_FINAL);
   }

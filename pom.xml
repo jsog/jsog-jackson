@@ -3,7 +3,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jackson.version>2.5.0</jackson.version>
+		<jackson.version>2.5.4</jackson.version>
 	</properties>
 
 	<groupId>com.voodoodyne.jackson.jsog</groupId>
