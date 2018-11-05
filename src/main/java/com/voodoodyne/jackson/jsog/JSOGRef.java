@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.annotation.JsonSerialize;
  */
 @JsonSerialize(using=JSOGRefSerializer.class)
 @JsonDeserialize(using=JSOGRefDeserializer.class)
-public class JSOGRef
+public final class JSOGRef
 {
 	/** */
 	public static final String REF_KEY = "@ref";
