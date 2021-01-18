@@ -17,7 +17,7 @@ public class JSOGRefDeserializer extends JsonDeserializer<JSOGRef>
 {
 	@Override
 	public JSOGRef deserialize(JsonParser jp, DeserializationContext ctx) throws IOException, JsonProcessingException {
-		JsonNode node = jp.readValueAsTree();
+		JsonNode node = ctx.readValue(jp, JsonNode.class);
 		if (node.isTextual()) {
 			return new JSOGRef(node.asText());
 		} else {
